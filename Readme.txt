@@ -6,3 +6,8 @@ Router - A router object is an isolated instance of middleware and routes. You c
 #TODO
 
 Custom validation for username and password in schema(user.js)
+
+packages:
+
+multer is used for storage, uploading and stream(retreieving) the images from mongoDB
+npm i package_name --legacy-peer-deps (for gridfs-stream)
