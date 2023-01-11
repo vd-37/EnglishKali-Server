@@ -47,6 +47,8 @@ export const deletePost = async (request, response) => {
         return response.status(200).json({msg: "Post deleted successfully"})
     } catch (error) {
         return response.status(500).json({msg: error.message})
+
+        
     }
 }
 
